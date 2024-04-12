@@ -25,7 +25,6 @@ print(decrypted_text)
 #Escribimos el texto descifrado al final del archivo readme.txt
 with open('README.md', 'a') as file:
     file.write('\n\n')
-    file.write('Texto descifrado:\n')
     file.write(decrypted_text)
 
 # Imprimir mensaje de confirmación
